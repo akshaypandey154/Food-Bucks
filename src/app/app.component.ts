@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'work';
+  featureLoaded="recipe";
+
+  featureListen(feature: string){
+  	this.featureLoaded=feature;
+  }
 }
